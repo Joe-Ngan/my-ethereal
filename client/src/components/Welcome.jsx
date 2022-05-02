@@ -43,7 +43,7 @@ const Welcome = () => {
                             Trade cryptocurrencies on Ethereal easily.
                         </p>
                         {!currentAccount &&
-                        <button type="button" onClick={connectWallet} className="flex felx-row justify-center items-center my-5 bg-[#e3c129] p-3 rounded-full cursor-pointer hover:bg-[#d1b01f]">
+                        <button type="button" onClick={connectWallet} className="flex felx-row justify-center w-80 items-center my-5 bg-[#e3c129] p-3 rounded-full cursor-pointer hover:bg-[#d1b01f]">
                             <p className="text-white text-base font-semibold">Connect Wallet</p>
                         </button>
                         }
@@ -70,7 +70,7 @@ const Welcome = () => {
                     </div>
                 </div>
                 <div className="flex mf:flex-row flex-col flex-1 items-center justify-start w-full mf:mt-0 px-40">
-                    <div className={`mx-10 p-5 justify-end items-start flex-col rounded-xl h-60 w-full my-5 ${currentAccount?'eth-card':''} white-glassmorphism hover:bg-yellow-300 hover:cursor-pointer`}>
+                    <div className={`mx-10 p-5 justify-end items-start flex-col rounded-xl h-60 w-full my-5 ${currentAccount?'eth-card hover:bg-yellow-300':''} white-glassmorphism  hover:cursor-pointer`}>
                         <div className="flex justify-between flex-col w-full h-full">
                             <div className="flex justify-between items-star">
                                 <div className="w-10 h-10 rounded-full border-2 border-white flex justify-center items-center hover:bg-yellow-400">

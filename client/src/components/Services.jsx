@@ -15,9 +15,9 @@ const ServiceCard = ({color, title, icon, subtitle}) => (
 )
 const Services = () => {
     return(
-        <div className="flex flex-col md:flex-row w-full justify-center items-center gradient-bg-services">
+        <div className="flex flex-col md:flex-row w-full justify-center items-center gradient-bg-services px-20 py-10">
             <div className="flex mf:flex-row flex-col items-center justify-between md:p-20 py-12 px-4">
-                <div className="flex-1 flex flex-col justify-start items-start">
+                <div className=" flex-1 flex flex-col justify-start items-start">
                     <h1 className="text-white text-3xl sm:text-5xl py-2 text-gradient">Why Ethereal?
                         <br/>
                         Best industry services.
@@ -35,7 +35,7 @@ const Services = () => {
                     color="bg-[#8945F8]"
                     title="Best Exachange Rate"
                     icon={<BiSearchAlt fontSize={21} className="text-white"/>}
-                    subtitle="Using ethereal is free of charge. All you need to concern is gas fee. We guarantee your services for centuries."
+                    subtitle="Using ethereal is free of charge (gas fee excluded). We guarantee your services for centuries."
                 />
                 <ServiceCard
                     color="bg-[#f84550]"
