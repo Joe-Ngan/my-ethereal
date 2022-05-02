@@ -32,9 +32,9 @@ const Welcome = () => {
     }
     return(
         <div className="flex w-full justify-center items-center">
-            <div className="flex flex-col items-start justify-center w-full px-40 md:p-10 py-12">
-            <div className="flex flex-row justify-center items-center my-20 px-40 w-full">
-                    <div className="flex flex-col justify-start pl-10 w-6/12">
+            <div className="flex flex-col items-start justify-center w-full mf:px-40 md:p-10 mf:py-12">
+            <div className="flex mf:flex-row flex-col justify-center items-center my-20 mf:px-40 w-full">
+                    <div className="flex flex-col justify-start mf:pl-10 w-6/12">
                         <h1 className="text-3xl sm:text-5xl text-white text-gradient py-1">
                             Send your crypto <br/> Amazing velocity
                         </h1>
@@ -69,7 +69,7 @@ const Welcome = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex mf:flex-row flex-col flex-1 items-center justify-start w-full mf:mt-0 px-40">
+                <div className="flex mf:flex-row flex-col flex-1 items-center justify-start w-full mf:mt-0 mf:px-40 px-10">
                     <div className={`mx-10 p-5 justify-end items-start flex-col rounded-xl h-60 w-full my-5 ${currentAccount?'eth-card hover:bg-yellow-300':''} white-glassmorphism  hover:cursor-pointer`}>
                         <div className="flex justify-between flex-col w-full h-full">
                             <div className="flex justify-between items-star">
