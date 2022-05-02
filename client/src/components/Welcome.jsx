@@ -43,7 +43,7 @@ const Welcome = () => {
                             Trade cryptocurrencies on Ethereal easily.
                         </p>
                         {!currentAccount &&
-                        <button type="button" onClick={connectWallet} className="flex felx-row justify-center w-80 items-center my-5 bg-[#e3c129] p-3 rounded-full cursor-pointer hover:bg-[#d1b01f]">
+                        <button type="button" onClick={connectWallet} className="flex felx-row justify-center mf:w-80 w-40 items-center my-5 bg-[#e3c129] p-3 rounded-full cursor-pointer hover:bg-[#d1b01f]">
                             <p className="text-white text-base font-semibold">Connect Wallet</p>
                         </button>
                         }
